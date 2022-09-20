@@ -6,3 +6,10 @@ function checkPrime(num) {
       count++;
     }
   }
+  if (count == 2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(checkPrime(19));
